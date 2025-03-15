@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+
 import './Navbar.css'
 import menu_icon from '../../assets/menu.png'
 import logo from '../../assets/logo.png'

@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Home.css'
 import Sidebar from '../../Components/Sidebar/Sidebar'
 import Feed from '../../Components/Feed/Feed'
+// eslint-disable-next-line react/prop-types
 const Home = ({sidebar}) => {
   const [category,setCategory] = useState(0);
   return (
