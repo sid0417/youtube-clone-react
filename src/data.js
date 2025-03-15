@@ -1,5 +1,7 @@
+/* eslint-disable no-undef */
 
-export const API_KEY = 'AIzaSyDk5PEJpPm4FnvTDVhbvIgY498u_YZrOvQ';
+export const API_KEY = import.meta.env.VITE_API_KEY;
+
 
 
 
